@@ -17,6 +17,20 @@ body{
 .first-section img{
     width: 100%;
 }
+p{
+    color: dimgrey;
+}
+.copyright{
+    text-align: center;
+}
+.middle-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.middle-section-writing-part{
+    padding-right: 5px;
+}
 .top-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -31,4 +45,30 @@ body{
 }
 section{
     height: 500px;
+    padding: 50px;
+}
+.single-experince{
+    box-shadow:10px 10px 40px gray ;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+}
+.experience-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#orange{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato) ;
+    border-image-slice: 1;
+}
+#blue{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
